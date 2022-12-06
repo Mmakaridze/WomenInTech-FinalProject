@@ -1,0 +1,197 @@
+@media (max-width: 1000px) {
+    .navigation-ul {
+        display: none;
+    }
+    .div-burger {
+        display: block;
+    }
+    .petBirds-ul {
+        display: none;
+    }
+    .div-bar {
+        display: block;
+    }  
+    .petBirds-ul {
+        display: none;
+    }
+    .div-bar {
+        display: block;
+    }
+    .bg-image {
+        display: none;
+    }
+    .bg-image1 {
+        width: 50%;
+    }
+    .bg-image2 {
+        width: 50%;
+    }  
+    .search {
+        display: none;
+    }
+    .fa-search {
+        display: none;
+    }
+}
+@media (max-width: 1180px) {
+    .section-three {
+        margin-top: 50px;
+    }
+    .section-four {
+        margin-top: 65px;
+    }
+    .bg-image28 {
+        margin-top: 40px;
+    }
+    .section-five {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+    .image-parrot {
+        display: none;
+    }
+}
+@media (max-width: 770px) {
+    .video-youtube {
+        max-width: 500px;
+        width: 100%;
+        height: 370px;
+        margin: 0 auto;
+    }
+    .bg-image1 {
+        width: 100%;
+    }
+    .bg-image2 {
+        display: none;
+    }
+}
+@media (max-width: 749px) {
+    .smallMammals-div3 {
+        height: 600px;
+    }
+    .petBirds-div3 {
+        height: 1000px
+    }
+    .div-loadmore {
+        margin-top: 145px;
+    }
+}
+@media (max-width: 785px) {
+    .header-div1 {
+        height: 70px;
+    }
+}
+@media (max-width: 637px) {
+    .birds-h2 {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .birds-p {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .petBirds-div2 {
+        height: 600px;
+    }
+    .world-h2 {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .world-p {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .smallMammals-div2 {
+        height: 600px;
+    }
+}
+@media (max-width: 567px) {
+    .video-youtube {
+        max-width: 450px;
+        width: 100%;
+        height: 370px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 520px) {
+    .video-youtube {
+        max-width: 400px;
+        width: 100%;
+        height: 370px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 468px) {
+    .video-youtube {
+        max-width: 350px;
+        width: 100%;
+        height: 350px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 430px) {
+    .video-youtube {
+        max-width: 300px;
+        width: 100%;
+        height: 330px;
+        margin: 0 auto;
+    }
+    .div-ul-1 {
+        display: none;
+    }
+    .header-div1 {
+        height: 35px;
+    }
+    .petBirds-div4 {
+        margin-left: 0px;
+    }
+    .post {
+        margin-left: 0px;
+    }
+    .smallMammals-div4 {
+        margin-left: 0px; 
+    }
+    .smallMammals-div5 {
+        margin-left: 0px; 
+    }
+    .button {
+        margin-left: 0px;
+    }
+    .footer-h2 {
+        font-size: 20px;
+    }
+    .footer-p {
+        font-size: 15px;
+    }
+    .div-icon1 {
+        max-width: 30px;
+        width: 100%;
+        height: 30px; 
+    }
+    .a-icon1 {
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+    }
+    .icon1 {
+        margin-left: 10px;
+    }
+}
+@media (max-width: 367px) {
+    .video-youtube {
+        max-width: 250px;
+        width: 100;
+        height: 270px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 342px) {
+    .post1 {
+        max-width: 280px;
+        width: 100%;
+    }
+}
