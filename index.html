@@ -12,7 +12,6 @@
     <meta property="og:title"          content="parrot"/>
     <meta property="og:description"    content="The world of parrots"/>
     <meta property="og:image"          content="https://unsplash.com/photos/ZkBjtrG7aYg" />
-	<meta content="">
 	<title>Parrot</title>
 	<link rel="icon" href="/images/905585.png">
 	<link rel="stylesheet" href="css/reset.css">
@@ -143,7 +142,7 @@
 				<h3 class="birds-h3">Jhon  |  2 hours ago</h3>
 				<p class="birds-p">News is a direct tool of influence on public consciousness. The goal of the news is to provide to the society objective information about a particular event or action.</p>
 				<div class="div-readmore">
-					<a class="readmore" href="#">Read More</a>
+					<button class="readmore">Read More</button>
 				</div>
 			</div>
 			<div class="petBirds-div3">
@@ -159,7 +158,7 @@
 					<h3 class="nature-h3">Jhon  |  2 hours ago</h3>
 					<p class="nature-p">Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their...</p>
 					<div class="div-readmore-nature">
-						<a class="readmore-nature" href="#">Read More</a>
+						<button class="readmore-nature">Read More</button>
 					</div>
 				</div>
 				<div class="pet-div2">
@@ -174,12 +173,12 @@
 					<h3 class="nature-h3">Tomas  |  6 hours ago</h3>
 					<p class="nature-p">Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their...</p>
 					<div class="div-readmore-nature">
-						<a class="readmore-nature" href="#">Read More</a>
+						<button class="readmore-nature">Read More</button>
 					</div>
 				</div>
 			</div>
 			<div class="div-loadmore">
-				<a class="loadmore" href="#">Load More</a>
+				<button class="loadmore">Load More</button>
 			</div>
 		</div>
 		<div>
@@ -270,7 +269,7 @@
 					</div>
 				</div>
 				<div class="div-more">
-					<a class="more" href="#">Load More</a>
+					<button class="more">Load More</button>
 				</div>
 			</div>
 		</div>
@@ -309,7 +308,7 @@
 				<h3 class="world-h3">Tina  |  4 hours ago</h3>
 				<p class="world-p">News is a direct tool of influence on public consciousness. The goal of the news is to provide to the society objective information about a particular event or action.</p>
 				<div class="div-readmore1">
-					<a class="readmore1" href="#">Read More</a>
+					<button class="readmore1">Read More</button>
 				</div>
 			</div>
 			<div class="smallMammals-div3">
@@ -357,7 +356,7 @@
 				</div>
 			</div>
 			<div class="div-loadmore1">
-				<a class="loadmore1" href="#">Load More</a>
+				<button class="loadmore1">Load More</button>
 			</div>
 		</div>
 		<div class="smallMammals1">
@@ -411,7 +410,7 @@
 					<h3 class="nature-h3">Nina  |  1 hours ago</h3>
 					<p class="nature-p">Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their...</p>
 					<div class="div-readmore-veterinary">
-						<a class="readmore-nature" href="#">Read More</a>
+						<button class="readmore-nature">Read More</button>
 					</div>
 				</div>
 				<div class="veterinary-div">
@@ -426,7 +425,7 @@
 					<h3 class="nature-h3">Tomas  |  3 hours ago</h3>
 					<p class="nature-p">Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their...</p>
 					<div class="div-readmore-veterinary">
-						<a class="readmore-nature" href="#">Read More</a>
+						<button class="readmore-nature">Read More</button>
 					</div>
 				</div>
 				<div class="veterinary-div">
@@ -441,7 +440,7 @@
 					<h3 class="nature-h3">Marika  |  1 hours ago</h3>
 					<p class="nature-p">Seven years after the Affordable Care act was enacted, Republicans are trying to follow through on their...</p>
 					<div class="div-readmore-veterinary">
-						<a class="readmore-nature" href="#">Read More</a>
+						<button class="readmore-nature">Read More</button>
 					</div>
 				</div>
 				<div class="veterinary-div3">
@@ -483,19 +482,15 @@
 				</div>
 			</div>
 			<div class="div-loadmore2">
-				<a class="loadmore2" href="#">Load More</a>
+				<button class="loadmore2">Load More</button>
 			</div>
 		</div>
 		<div class="veterinary-div4">
-			<div class="smallMammals-div4">
-				<div class="bg-image28">
-					<p class="bg-image18-p">That is an  amazing shot</p>
-				</div>
-			</div>
-			<div class="smallMammals-div5">
-				<div class="bg-image29">
-					<p class="bg-image19-p">Facebook</p>
-					<i class="fab fa-facebook face"></i>
+			<div class="post-vet">
+				<h2 class="post-h2">The best vet</h2>
+				<div class="vet-post" id="vet-post"></div>
+				<div class="div-more-vet">
+					<button class="more-vet" id="loadmore">Load More</button>
 				</div>
 			</div>
 		</div>
@@ -525,7 +520,7 @@
 			<div class="videos-div2">
 				<div class="div-color">
 					<div class="symbol left-symbol" id="left-symbol">〈</div>
-					<civ class="symbol right-symbol" id="right-symbol">〉</civ>
+					<div class="symbol right-symbol" id="right-symbol">〉</div>
 					<div class="slider" id="slider"></div>
 				</div>
 				<div class="div-birds">
@@ -539,42 +534,42 @@
 			</div>
 			<div class="smallMammals-div3">
 				<div class="video-post">
-					<iframe class="mini-video" src="https://www.youtube.com/embed/Cy_LvquUR3o" title="cute cat funny video compilation || cute cat funny video #80 😆" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="mini-video" src="https://www.youtube.com/embed/Cy_LvquUR3o" title="cute cat funny video compilation || cute cat funny video #80 😆" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="post1-div">
 						<p class="post1-p">Scarlett’s disappointment  at latest accolade</p>
 						<p class="post1-p1">Jina  |  3 hours ago</p>
 					</div>
 				</div>
 				<div class="video-post">
-					<iframe class="mini-video" src="https://www.youtube.com/embed/gx0daryMPio" title="Cute And Funny Cats Videos Compilation 2022 😹 Makes you laugh 😂 #11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="mini-video" src="https://www.youtube.com/embed/gx0daryMPio" title="Cute And Funny Cats Videos Compilation 2022 😹 Makes you laugh 😂 #11" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="post1-div">
 						<p class="post1-p">Most Beautiful Things to  Do in Sidney with Your BF</p>
 						<p class="post1-p1">Inna  |  5 hours ago</p>
 					</div>
 				</div>
 				<div class="video-post">
-					<iframe class="mini-video" src="https://www.youtube.com/embed/lu8fd_CFjG8" title="Adorable cat videos to make your day!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="mini-video" src="https://www.youtube.com/embed/lu8fd_CFjG8" title="Adorable cat videos to make your day!" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="post1-div">
 						<p class="post1-p">Have Fun in The Morning With  a Cup of Coffee</p>
 						<p class="post1-p1">Sonia  |  7 hours ago</p>
 					</div>
 				</div>
 				<div class="video-post">
-					<iframe class="mini-video" src="https://www.youtube.com/embed/BaR3gr754gE" title="Funniest Cat Videos - Reactions, Fails and More! Compilation 2022 PART 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="mini-video" src="https://www.youtube.com/embed/BaR3gr754gE" title="Funniest Cat Videos - Reactions, Fails and More! Compilation 2022 PART 3"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="post1-div">
 						<p class="post1-p">Accompany Your Trips, in  The Blue Sky</p>
 						<p class="post1-p1">Nino  |  5 hours ago</p>
 					</div>
 				</div>
 				<div class="video-post">
-					<iframe class="mini-video" src="https://www.youtube.com/embed/PBbk1AxD_qI" title="Cutest and Funniest Cats Ever - Funny Cat Compilation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="mini-video" src="https://www.youtube.com/embed/PBbk1AxD_qI" title="Cutest and Funniest Cats Ever - Funny Cat Compilation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="post1-div">
 						<p class="post1-p">Summer Travel Fashion,  Your Holiday Choice</p>
 						<p class="post1-p1">Keti  |  9 hours ago</p>
 					</div>
 				</div>
 				<div class="video-post">
-					<iframe class="mini-video" src="https://www.youtube.com/embed/f9UBAdnQ5t0" title="Cute Cat Funny Shorts Compilations 2022🤣|| Cat Videos😍🥰😘|| Funny Animals Part 298 || Piggi World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="mini-video" src="https://www.youtube.com/embed/f9UBAdnQ5t0" title="Cute Cat Funny Shorts Compilations 2022🤣|| Cat Videos😍🥰😘|| Funny Animals Part 298 || Piggi World" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="post1-div">
 						<p class="post1-p">Life’s challenges force us  to harden up</p>
 						<p class="post1-p1">Tomas  |  12 hours ago</p>
@@ -582,7 +577,7 @@
 				</div>
 			</div>
 			<div class="div-loadmore3">
-				<a class="loadmore3" href="#">Load More</a>
+				<button class="loadmore3">Load More</button>
 			</div>
 		</div>
 		<div class="veterinary-div4">
@@ -674,12 +669,12 @@
 			</div>
 			<div class="footer-div">
 				<h2 class="footer-h2">Contact Us</h2>
-				<form action="" id="contact">
+				<form action="contact" id="contact">
 					<input class="input-email" name="inputemail" id="email" type="text" placeholder="Your email address">
 					<span class="error-text" id="error-inputemail"></span>
 					<textarea class="message" name="message" id="mess" cols="30" rows="10" placeholder="Message..."></textarea>
 					<span class="error-text" id="error-message"></span>
-					<button class="button" id="button-i"type="submit">
+					<button class="button" id="button-i" type="submit">
 						<i class="fas fa-paper-plane"></i>
 					</button>
 			 	</form>

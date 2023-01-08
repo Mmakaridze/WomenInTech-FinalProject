@@ -1,3 +1,8 @@
+@media (max-width: 1150px) {
+    .post-vet {
+        margin-top: 30px;
+    }
+}
 @media (max-width: 1000px) {
     .navigation-ul {
         display: none;
@@ -115,6 +120,13 @@
     }
     .post {
         margin-left: 0px;
+    }
+    .post-vet {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .videos {
+        margin-top: 30px;
     }
     .smallMammals-div4 {
         margin-left: 0px; 

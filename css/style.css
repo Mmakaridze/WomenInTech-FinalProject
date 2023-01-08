@@ -514,6 +514,7 @@
 }
 .readmore {
 	font-size: 15px;
+	background-color: #8A3AB9;
 	color: #14CA82;
     max-width: 100px;
     width: 100%;
@@ -529,9 +530,10 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .readmore:hover {
-	color: #FFFFFF;
+	color: white;
 	-webkit-box-shadow: 1px 1px 10px #090E1D;
 	        box-shadow: 1px 1px 10px #090E1D;
 }
@@ -631,6 +633,7 @@
 }
 .readmore-nature {
 	font-size: 15px;
+	background-color: #F44336;
 	color: #090E1D;
     max-width: 100px;
     width: 100%;
@@ -646,9 +649,10 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .readmore-nature:hover {
-	color: #FFFFFF;
+	color: white;
 	-webkit-box-shadow: 1px 1px 10px #090E1D;
 	        box-shadow: 1px 1px 10px #090E1D;
 }
@@ -961,6 +965,7 @@
 }
 .more {
 	font-size: 15px;
+	background-color: #ec9ccd;
 	color: #090E1D;
     max-width: 100px;
     width: 100%;
@@ -976,9 +981,10 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .more:hover {
-	color: #FFFFFF;
+	color: white;
 	-webkit-box-shadow: 1px 1px 10px #090E1D;
 	        box-shadow: 1px 1px 10px #090E1D;
 }
@@ -1001,6 +1007,7 @@
 }
 .loadmore {
 	font-size: 15px;
+	background-color: #c59ddd;
 	color: black;
     max-width: 200px;
     width: 100%;
@@ -1016,6 +1023,7 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .loadmore:hover {
 	color: #FFFFFF;
@@ -1157,6 +1165,7 @@
 }
 .readmore1 {
 	font-size: 15px;
+	background-color: #F44336;
 	color: #FFFFFF;
     max-width: 100px;
     width: 100%;
@@ -1172,6 +1181,7 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .readmore1:hover {
 	color: #090E1D;
@@ -1359,6 +1369,7 @@
 }
 .loadmore1 {
 	font-size: 15px;
+	background-color: #f07b72;
 	color: black;
     max-width: 200px;
     width: 100%;
@@ -1374,6 +1385,7 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .loadmore1:hover {
 	color: #FFFFFF;
@@ -1570,6 +1582,72 @@
 	width: 100%;
 	height: 910px;
 }
+.post-vet {
+	background-color: #FFFFFF;
+	max-width: 365px;
+	width: 100%;
+	height: min-content;
+	margin-left: 30px;
+	-webkit-box-shadow: 1px 1px 10px #4C75A3;
+	        box-shadow: 1px 1px 10px #4C75A3;
+}
+.postvet-div {
+	margin-left: 15px;
+	max-width: 150px;
+	width: 100%;
+	cursor: pointer;
+}
+.vet-post {
+	display: flex;
+	flex-wrap: wrap;
+}
+.avatar {
+	margin-top: 5px;
+	width: 100px;
+	height: 100px;
+}
+.div-more-vet {
+	margin: 15px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 100px;
+    width: 100%;
+    height: 30px;
+	border-radius: 50px;
+    background-color: #ec9ccd;
+}
+.more-vet {
+	font-size: 15px;
+	background-color: #ec9ccd;
+	color: #090E1D;
+    max-width: 100px;
+    width: 100%;
+    height: 30px;
+	border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+	font-family: 'Arya', sans-serif;
+	cursor: pointer;
+}
+.more-vet:hover {
+	color: white;
+	-webkit-box-shadow: 1px 1px 10px #090E1D;
+	        box-shadow: 1px 1px 10px #090E1D;
+}
 .bg-image28 {
 	background-image: url(../images/ve9.jpg);
 	background-size: cover;
@@ -1613,6 +1691,7 @@
 }
 .loadmore2 {
 	font-size: 15px;
+	background-color: #f0c164;
 	color: black;
     max-width: 200px;
     width: 100%;
@@ -1628,6 +1707,7 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .loadmore2:hover {
 	color: #FFFFFF;
@@ -1789,6 +1869,7 @@
 }
 .loadmore3 {
 	font-size: 15px;
+	background-color: #9499b4;
 	color: black;
     max-width: 200px;
     width: 100%;
@@ -1804,6 +1885,7 @@
         -ms-flex-align: center;
             align-items: center;
 	font-family: 'Arya', sans-serif;
+	cursor: pointer;
 }
 .loadmore3:hover {
 	color: #FFFFFF;
